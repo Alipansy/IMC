@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('pexels-dom-j-310452.jpg');
+    background-size:auto;
+    background-repeat: no-repeat;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    color: bisque; 
+   
+    display: flex;
+    flex-direction: column;
+    
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(10, 99, 177);
+    
+}
+
+.ensemble {
+    text-align: center;
+}
+
+.taille .poids {
+    margin: 20px;
+    color: rgb(19, 19, 143);
+    
+}
+
+.submit {
+    margin: 20px;
+    color: rgb(248, 248, 248);
+    background-color: rgb(75, 75, 155);
+    width: 50%;
+    
+}
+
+.all {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(252, 139, 33, 0.452);
+    margin: 70px;
+    padding: 30px;
+    border-radius:30px;
+    padding: 10px;
+    max-width: 700px;
+    min-width: 400px;
+
+    
+
+}
+
+h2{
+    text-align: center;
+}
+.tab{
+    display: flex;
+    justify-content: center;
+
+}
+
+.imgdiv{
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+img{
+    height: 300px;
+    width: 150;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+input{
+    width: 100%;
+    border-radius: 5px; border: 0px;
+    height: 30px;
+}

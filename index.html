@@ -4,9 +4,75 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="imc.js" defer></script>
     <title>IMC</title>
 </head>
 <body>
-    <h1>Calculez votre IMC</h1>
+    
+
+    <div class="all">  
+          <h1>Calculez votre IMC</h1> 
+          <div class="imgdiv">
+            <img src="pexels-shvets-production-6975473(1).jpg" alt="">
+        </div>
+          
+        <div class="formulaire" id="formulaire">
+        <form class= "form" id="form">
+            <div class="ensemble">
+            <div class="taille">
+                <label for="size">Taille (en cm)</label>
+                <input type="text" id="size" />
+            </div>
+            <div class="poids">
+                <label for="weight">Poids (en kg)</label>
+                <input type="text" id="weight" />
+
+
+            </div>
+        <input type="submit" id="submit" class="submit" value="Calculons">
+    </div>
+        </form>
+    </div>
+   
+        <h2>Interprétation de l'indice de masse corporelle (IMC)</h2>
+    <div class="tab"> 
+    <table>
+        <tr>
+            <th>Inférieur à 16</th>
+            <td>Anorexie ou dénutrition</td>
+        </tr>
+        <tr>
+            <th>Entre 16.5 et 18.5</th>
+            <td>Maigreur</td>
+        </tr>
+        <tr>
+            <th>Entre 18.5 et 25</th>
+            <td>Corpulence normale</td>
+        </tr>
+        <tr>
+            <th>Entre 25 et 30</th>
+            <td>Surpoids</td>
+        </tr>
+        <tr>
+            <th>Entre 30 et 35</th>
+            <td>Obésité modérée</td>
+        </tr>
+        <tr>
+            <th>Entre 35 et 40</th>
+            <td>Obésité élevée</td>
+        </tr>
+        <tr>
+            <th>Plus de 40</th>
+            <td>Obésité morbide ou massive</td>
+        </tr>
+      </table>
+    </div>
+</div>
+    
+    </div>
+    
+   
+    
 </body>
 </html>
